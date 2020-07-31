@@ -1,5 +1,6 @@
 import click
 from wqp import __version__
+from wqp.workflow import model_training_workflow
 
 @click.group(name='wqp')
 @click.version_option(__version__)
@@ -13,5 +14,4 @@ def jobs():
 @jobs.command(name='train')
 @click.option('--data-path', '-d')
 def train(data_path):
-    print(data_path)
-    pass
+    model_training_workflow(data_path)
