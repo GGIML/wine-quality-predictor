@@ -1,8 +1,14 @@
 README.md
 setup.py
 wqp/__init__.py
+wqp/cli.py
+wqp/data_access.py
+wqp/evaluation.py
+wqp/ml.py
+wqp/workflow.py
 wqp.egg-info/PKG-INFO
 wqp.egg-info/SOURCES.txt
 wqp.egg-info/dependency_links.txt
+wqp.egg-info/entry_points.txt
 wqp.egg-info/requires.txt
 wqp.egg-info/top_level.txt
