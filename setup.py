@@ -10,7 +10,7 @@ with open(ver_path) as ver_file:
 setuptools.setup(
     name='wqp',
     version=main_ns['__version__'],
-    author='yourname@email.com',
+    author='g.gimonnet@gmail.com',
     description='Wine quality predictor - a packaged machine learning algorithm to predict wine quality',
     packages=setuptools.find_packages(),
     install_requires=[
